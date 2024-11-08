@@ -1,33 +1,35 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="パンプかpumpするトレーニー"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「パンプかpumpするトレーニー」[l][r]
 
-メロスは激怒した。[l][r]
+トレーニーは激怒した。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+厳しいって。[l][r]
 
 (中略)[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+スポーツ経験がない男は、ガチで危機感を持ったほうがいい。[l][r]
+それこそがお前がどう足掻いてもモテない理由だと思う。モテないって。[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_sleep] →パンプ [endlink][r]
+[link target=*tag_run] →pump [endlink][r]
 [s]
 
 *tag_sleep
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=pump2.png time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+お前最後に競走したのいつ？[l][r]
+ほかの男と戦ったのいつ？[l][r]
+監督に理不尽なこと言われたのいつ？[l][r]
+ないでしょそういう経験。[r]
 
 【 BAD END 】[l][cm]
 
@@ -35,11 +37,15 @@
 
 *tag_run
 
-[bg storage=run.jpg time=500]
+[bg storage=pump1.png time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+モーニングルーティーン。[l][r]
+瞑想。[l][r]
+コールドシャワー。[l][r]
+ジャーナル。[l][r]
+自己啓発。[l][r]
+漢になれって。[r]
 
 【 GOOD END 】[l][cm]
 
